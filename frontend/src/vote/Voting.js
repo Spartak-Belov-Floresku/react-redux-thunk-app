@@ -5,8 +5,8 @@ import { IoMdThumbsUp, IoMdThumbsDown } from "react-icons/io";
 const Voting = ({id, votes}) => {
     const [voting, setVoiting] = useState(votes);
 
-    const trigerVote = async directaion =>{
-        const votes = await ApiClass.votingPost(id, directaion);
+    const trigerVote = async direction =>{
+        const votes = await ApiClass.votingPost(id, direction);
         setVoiting(votes);
     }
 
