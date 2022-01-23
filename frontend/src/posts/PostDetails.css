@@ -1,0 +1,21 @@
+.post-details,
+.comments{
+    margin:0 auto;
+    float: none;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.3);
+}
+.comments{
+    box-shadow: 0 0 0;
+    margin: 15px auto;
+}
+.processRef,
+.removeComment{
+    font-size: 25px;
+    padding-top:10px;
+    float:right;
+    margin-right: 10px;
+}
+.removeComment{
+    float: none;
+    padding:0;
+}

@@ -1,0 +1,17 @@
+.Homepage {
+    display: flex;
+    align-items: center;
+}
+.home_a{
+    margin:5px;
+}
+.links{
+    margin:0 auto;
+}
+.postRef,
+.postRef~p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    margin-bottom: 10px;
+}

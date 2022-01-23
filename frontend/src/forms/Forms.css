@@ -1,0 +1,24 @@
+.col-md-4{
+    margin:0 auto;
+    float: none;
+}
+form{
+    padding:30px;
+    border-radius: 5px;
+}
+input{
+    display: block;
+    margin:0 auto 1em;
+}
+label{
+    clear: right;
+}
+a.btn{
+    color:white;
+    background-color: grey;
+    margin-left:15px;
+}
+.commentForm{
+    float:none;
+    margin:15px auto;
+}
